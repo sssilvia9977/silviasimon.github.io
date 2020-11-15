@@ -1,0 +1,352 @@
+@import url("fontawesome-all.min.css");
+html,
+body,
+div,
+span,
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: "Poppins", Helvetica, sans-serif;
+    color: blanchedalmond;
+}
+
+body {
+    background: radial-gradient(black 3px, transparent 4px), radial-gradient(black 3px, transparent 4px), linear-gradient(rgb(4, 124, 236) 4px, transparent 0), linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px), linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px), #fff;
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+
+/*
+body {
+    background: radial-gradient(circle at 100% 50%, transparent 20%, #2196F3 21%, #2196F3 34%, transparent 35%, transparent), radial-gradient(circle at 0% 50%, transparent 20%, #2196F3 21%, #2196F3 34%, transparent 35%, transparent) 0 -50px;
+    background-color: #FFB300;
+    background-size: 75px 100px;
+}*/
+
+#resumeBlack {
+    background-color: rgb(36, 36, 36);
+    border-radius: 25px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 80%;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resumeContainer {
+    margin: 5%;
+}
+
+#myDescription {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+    margin-top: -10px;
+}
+
+#education_internship {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#allTech {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tech {
+    margin: 25px;
+    color: rgb(128, 142, 156);
+}
+
+.educationItem {
+    display: flex;
+    flex-direction: row;
+}
+
+.educationText {
+    margin-left: -70px;
+    padding-left: 90px;
+    border-left: 1px solid gray;
+    border-collapse: separate;
+    border-spacing: 15px;
+    padding-bottom: 15px;
+    z-index: 1;
+    padding-top: 10px;
+}
+
+#education {
+    margin-top: 20px;
+}
+
+#certificateText {
+    border: 4px solid rgb(64, 64, 64);
+    border-collapse: separate;
+    border-spacing: 15px;
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: -30px;
+    margin-top: 10px;
+    z-index: 1;
+    background-color: rgb(44, 44, 44);
+}
+
+#certificateItem {
+    display: flex;
+    flex-direction: row;
+}
+
+#certificatesAll {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#projectLink {
+    font-size: 48px;
+    border: 0;
+    color: rgb(85, 142, 218);
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 100;
+    line-height: 1em;
+    margin: 0 0 0.5625em 0;
+}
+
+h2 {
+    text-decoration: underline rgb(85, 142, 218);
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+h4 {
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid rgb(85, 142, 218);
+    width: 125px;
+    height: fit-content;
+    padding: 5px;
+    margin-left: -2px;
+    z-index: 2;
+    background-color: rgb(36, 36, 36);
+}
+
+.image-avatar {
+    border: rgb(81, 86, 90);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 15px;
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.image-avatar img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+#image-google {
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    margin: -10px;
+    padding: -10px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 25px;
+}
+
+#nav {
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav ul li {
+    display: inline;
+    padding: 20px;
+}
+
+#nav ul li a {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -ms-transition: none;
+    transition: none;
+    border: 0;
+    color: rgb(85, 142, 218) !important;
+    display: inline;
+    padding: 0.85em 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.icon.brands:before {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+ul.feature-icons {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.feature-icons li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0 1.6875em 0;
+    padding: 0.35em 0 0 3.5em;
+    position: relative;
+    vertical-align: top;
+    width: 48%;
+}
+
+ul.feature-icons li:before {
+    background: rgb(85, 142, 218);
+    border-radius: 100%;
+    color: #ffffff;
+    display: block;
+    height: 2.5em;
+    left: 0;
+    line-height: 2.5em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 2.5em;
+}
+
+.button {
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.button4 {
+    background-color: rgb(36, 36, 36);
+    color: black;
+    border: 2px solid grey;
+}
+
+.button4:hover {
+    background-color: grey;
+}
+
+.button4:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* The actual popup */
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 260px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -130px;
+}
+
+
+/* Popup arrow */
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+
+/* Toggle this class - hide and show the popup */
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+
+/* Add animation (fade in the popup) */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
+    position: absolute;
+}
