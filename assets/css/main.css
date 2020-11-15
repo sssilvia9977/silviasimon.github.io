@@ -53,12 +53,23 @@ body {
     display: flex;
     flex-direction: row;
     margin: 10%;
+    margin-top: -10px;
 }
 
 #education_internship {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#allTech {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tech {
+    margin: 25px;
+    color: rgb(128, 142, 156);
 }
 
 .educationItem {
@@ -250,6 +261,11 @@ ul.feature-icons li:before {
     background-color: grey;
 }
 
+.button4:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 .popup {
     position: relative;
     display: inline-block;
@@ -320,4 +336,17 @@ ul.feature-icons li:before {
     to {
         opacity: 1;
     }
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
+    position: absolute;
 }
