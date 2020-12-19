@@ -208,70 +208,143 @@
 
             </section>
 
-            <!-- proiecte de continuat  -->
+
             <section id="projects" style="margin-top: 50px;">
                 <h2>Projects</h2>
 
-                <div style="display: flex; ">
-                    <div style=" margin-right: 10px; width: 50%;">
-                        <div id="certificateItem">
-                            <a id="projectLink" target="_blank" href="https://github.com/sssilvia9977?tab=repositories" class="fa fa-github"></a>
-                            <div>
-                                <h4 style="width: fit-content; margin-top: -5px;"><strong>DIPLOMA PROJECT </strong> - Mobile application for organizing a student’s schedule</h4>
-                                <p>Front-end developed with <strong>React-Native, JavaScript</strong></p>
-                                <p>Back-end developed with <strong>Java, Spring Boot</strong> framework
-                                </p>
-                                <p>Based on <strong>Client-Server</strong> architecture, exposing a <strong>REST
+
+                <div id="certificateItem">
+                    <a id="projectLink" target="_blank" href="https://github.com/sssilvia9977?tab=repositories" class="fa fa-github"></a>
+                    <div>
+                        <h4 style="width: fit-content; margin-top: 5px; margin-bottom: 60px;"><strong>DIPLOMA PROJECT </strong> - Mobile application for organizing a student’s schedule</h4>
+
+                        <p>This application intends to help students to accommodate faster in a new city. They will be able to find faculties headquarters easier, manage their courses, assignments, and find the most popular places for students. </p>
+
+
+                        <div style=" display: flex;  flex-direction: row; align-items: flex-start;  justify-content: space-around; width: 100%;">
+
+
+                            <div id="clipPrj" style="width: 33%;">
+                                <video width="280" height="360" controls>
+                                <source src="videos/clipOrar.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+
+                                <div>
+                                    <p style="text-align: center;"><strong>  Loading the schedule :</strong> </p>
+                                    <p style="text-align: center;">
+
+                                        The user can load his schedule directly into the application and the calendar will be filled accordingly. Each day of the calendar will be marked as "holiday", "exam" or "school", while also being able to view courses and assignments.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div id="clipPrj" style="width: 33%;">
+                                <video width="280" height="360" controls>
+                                <source src="videos/clipNavigare.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+
+                                <div>
+                                    <p style="text-align: center;"><strong>Finding the faculty headquarter :</strong> </p>
+                                    <p style="text-align: center;">
+                                        After the user has inserted the schedule, he can tap on a certain course. This will open a map showing him the way to get there, taking into consideration the time the course starts and the way of transport.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div id="clipPrj" style="width: 33%;">
+                                <video width="280" height="360" controls>
+                                <source src="videos/recom.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+
+                                <div>
+                                    <p style="text-align: center;"><strong> Adding recommendations :</strong> </p>
+                                    <p style="text-align: center;">
+
+                                        Users can add their recommendations regarding their favorite places so everyone can see them.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                        <ul>
+                            <li><strong>Technical details:</strong></li>
+                        </ul>
+                        <p>Front-end developed with <strong>React-Native, JavaScript</strong></p>
+                        <p>Back-end developed with <strong>Java, Spring Boot</strong> framework
+                        </p>
+                        <p>Based on <strong>Client-Server</strong> architecture, exposing a <strong>REST
                                     API</strong> from the server</p>
-                                <p>The database used is <strong>PostgreSQL</strong> and the ORM was handled by <strong>Hibernate</strong></p>
-                                <p>Spring security for authentication</p>
+                        <p>The database used is <strong>PostgreSQL</strong> and the ORM was handled by <strong>Hibernate</strong></p>
+                        <p>Spring security for authentication</p>
 
-                            </div>
-                        </div>
-
-                        <div style="margin-top: 20px;" id="certificateItem">
-                            <a id="projectLink" target="_blank" href="https://github.com/utcn-sd-serban/assignment-3-sssilvia9977/tree/develop" class="fa fa-github"></a>
-                            <div>
-                                <h4 style="width: fit-content; margin-top: 4px;"><strong>FORUM LIKE APPLICATION</strong> - Web application hosting questions and answers</h4>
-                                <p>Front-end developed with React and <strong>Bootstrap</strong></p>
-                                <p>Back-end developed with Java, Spring Boot framework
-                                </p>
-                                <p>Based on Client-Server architecture
-                                </p>
-                                <p>The database used is PostgreSQL and the ORM was handled with <strong>JDBC</strong></p>
-                                <p>Spring security and authentication based on roles</p>
-
-                            </div>
-                        </div>
                     </div>
+                </div>
+
+                <div id="certificateItem" style=" margin-top: 60px; margin-left: 10px; ">
+                    <a id="projectLink" target="_blank" href="https://bitbucket.org/SilviaStefania" class="fa fa-bitbucket"></a>
+                    <div>
+                        <h4 style="width: fit-content; margin-top: -5px;"><strong>HEALTH CARE APPLICATION –</strong> Web application for doctors and patients </h4>
+
+                        <p>
+                            The purpose of the health care application is to offer doctors a way of managing their patients: they can assign patients to caregivers, add new patients/caregivers, add medical plans to patients and receive notifications regarding patients' status.
+                        </p>
+
+                        <ul>
+                            <li><strong>Technical details:</strong></li>
+                        </ul>
+
+                        <p>Front-end developed with <strong>React, HTML, CSS</strong>
+                        </p>
+                        <p>Back-end developed with Java, Spring Boot framework, using <strong>WebSocket</strong> to send data to the front-end in real time
+                        </p>
+                        <p>Used PostgreSQL and Hibernate</p>
+
+                        <p>Sending and receiving patient data through <strong>RabbitMQ</strong></p>
 
 
+                        <p>Desktop application: data is send from patients to the back-end through <strong>gRPC</strong></p>
 
-                    <div id="certificateItem" style=" margin-left: 10px; width: 50%;">
-                        <a id="projectLink" target="_blank" href="https://bitbucket.org/SilviaStefania" class="fa fa-bitbucket"></a>
-                        <div>
-                            <h4 style="width: fit-content; margin-top: -5px;"><strong>HEALTH CARE APPLICATION –</strong> - Web application for doctors and patients</h4>
+                        <p>Using <strong>SOAP</strong> to add medical plans for patients - console application developed with Python</p>
 
-                            <p>Front-end developed with <strong>React, HTML, CSS</strong>
-                            </p>
-                            <p>Back-end developed with Java, Spring Boot framework, using <strong>WebSocket</strong> to send data to the front-end in real time
-                            </p>
-                            <p>Used PostgreSQL and Hibernate</p>
-
-                            <p>Sending and receiving patient data through <strong>RabbitMQ</strong></p>
-
-
-                            <p>Desktop application: data being send from patients to the back-end through <strong>gRPC</strong></p>
-
-                            <p>Using <strong>SOAP</strong> to add medical plans for patients - console application developed with Python</p>
-
-                        </div>
                     </div>
                 </div>
 
 
 
-                <p style="margin-top: 70px;">And this resume :)</p>
+
+                <div style="margin-top: 60px;" id="certificateItem">
+                    <a id="projectLink" target="_blank" href="https://github.com/utcn-sd-serban/assignment-3-sssilvia9977/tree/develop" class="fa fa-github"></a>
+                    <div>
+                        <h4 style="width: fit-content; margin-top: 4px;"><strong>FORUM LIKE APPLICATION</strong> - Web application hosting questions and answers</h4>
+
+                        <p>
+                            The application allows users to post questions that will open a thread of discussion. Other users can answer those questions and up vote or down vote them.
+                        </p>
+
+                        <ul>
+                            <li><strong>Technical details:</strong></li>
+                        </ul>
+
+                        <p>Front-end developed with React and <strong>Bootstrap</strong></p>
+                        <p>Back-end developed with Java, Spring Boot framework
+                        </p>
+                        <p>Based on Client-Server architecture
+                        </p>
+                        <p>The database used is PostgreSQL and the ORM was handled with <strong>JDBC</strong></p>
+                        <p>Spring security and authentication based on roles</p>
+
+                    </div>
+                </div>
+
+
+                <p style="margin-top: 70px;">And this resume</p>
 
             </section>
 
