@@ -142,6 +142,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 33%;
+}
+
+@media screen and (max-width: 900px) {
+    #clipPrj {
+        width: 80%;
+    }
 }
 
 #certificateText {
@@ -187,16 +194,6 @@ body {
     #clipuri {
         flex-direction: column;
         align-items: center;
-    }
-}
-
-#clipPrj {
-    width: 33%;
-}
-
-@media screen and (max-width: 900px) {
-    #clipPrj {
-        width: 80%;
     }
 }
 
