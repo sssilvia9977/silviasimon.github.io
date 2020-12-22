@@ -37,8 +37,22 @@ body {
     margin-right: auto;
 }
 
+@media screen and (max-width: 1000px) {
+    #resumeBlack {
+        margin-top: -20px;
+        margin-bottom: -20px;
+        width: auto;
+    }
+}
+
 #resumeContainer {
     margin: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+    #resumeContainer {
+        margin: 0.5%;
+    }
 }
 
 #myDescription {
@@ -49,17 +63,48 @@ body {
     text-align: center;
 }
 
+@media screen and (max-width: 1000px) {
+    #myDescription {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 #header {
     display: flex;
     flex-direction: row;
     margin: 10%;
     margin-top: -10px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+    #header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10%;
+        margin-top: -10px;
+    }
 }
 
 #education_internship {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1300px) {
+    #education_internship {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 #allTech {
@@ -92,6 +137,13 @@ body {
     margin-top: 20px;
 }
 
+#clipPrj {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #certificateText {
     border: 4px solid rgb(64, 64, 64);
     border-collapse: separate;
@@ -113,6 +165,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #projectLink {
@@ -122,11 +175,60 @@ body {
     margin-right: 10px;
 }
 
+#clipuri {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    #clipuri {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#clipPrj {
+    width: 33%;
+}
+
+@media screen and (max-width: 900px) {
+    #clipPrj {
+        width: 80%;
+    }
+}
+
 h1 {
     font-size: 3.5em;
     font-weight: 100;
     line-height: 1em;
     margin: 0 0 0.5625em 0;
+}
+
+#twoSoft {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1300px) {
+    #twoSoft {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.skillDesc {
+    margin-right: 10px;
+    width: 50%;
+}
+
+@media screen and (max-width: 1300px) {
+    .skillDesc {
+        margin-right: 10px;
+        width: 100%;
+    }
 }
 
 h2 {
