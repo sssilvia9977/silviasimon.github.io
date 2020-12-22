@@ -89,33 +89,6 @@
                     </div>
 
                 </div>
-
-
-                <!--
-                       <div style="align-self: center;">
-                        <button id="change" onclick="changeText()" style="color: blanchedalmond; font-size: 100%;
-                        font-family: 'Poppins', Helvetica, sans-serif; margin-top: 15px;" class="button button4">About me</button>
-                    </div>
-
-                    <script>
-                        function changeText() {
-                            var x = document.getElementById("change");
-                            var p = document.getElementById("aboutMe");
-                            var skills = document.getElementById("MySkills");
-                            if (x.innerHTML === "About me") {
-                                x.innerHTML = "Technologies";
-                                p.className = "visible";
-                                skills.className = "hidden";
-                            } else {
-                                x.innerHTML = "About me";
-                                p.className = "hidden";
-                                skills.className = "visible";
-                            }
-                        }
-                    </script>
-                     -->
-
-
             </div>
 
 
@@ -213,18 +186,18 @@
                 <h2>Projects</h2>
 
 
-                <div id="certificateItem">
+                <div id="projectItem">
                     <a id="projectLink" target="_blank" href="https://github.com/sssilvia9977?tab=repositories" class="fa fa-github"></a>
                     <div>
-                        <h4 style="width: fit-content; margin-top: 5px; margin-bottom: 60px;"><strong>DIPLOMA PROJECT </strong> - Mobile application for organizing a student’s schedule</h4>
+                        <h4 style="margin-left: 45px; margin-top: -45px; width: fit-content; margin-bottom: 60px;"><strong>DIPLOMA PROJECT </strong> - Mobile application for organizing a student’s schedule</h4>
 
                         <p>This application intends to help students to accommodate faster in a new city. They will be able to find faculties headquarters easier, manage their courses, assignments, and find the most popular places for students. </p>
 
 
-                        <div style=" display: flex;  flex-direction: row; align-items: flex-start;  justify-content: space-around; width: 100%;">
+                        <div id="clipuri">
 
 
-                            <div id="clipPrj" style="width: 33%;">
+                            <div id="clipPrj">
                                 <video style="align-self: center;" width="280" height="360" controls>
                                 <source src="videos/clipOrar.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
@@ -239,7 +212,7 @@
                                 </div>
                             </div>
 
-                            <div id="clipPrj" style="width: 33%;">
+                            <div id="clipPrj">
                                 <video style="align-self: center;" width="280" height="360" controls>
                                 <source src="videos/clipNavigare.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
@@ -254,7 +227,7 @@
                             </div>
 
 
-                            <div id="clipPrj" style="width: 33%;">
+                            <div id="clipPrj">
                                 <video style="align-self: center;" width="280" height="360" controls>
                                 <source src="videos/recom.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
@@ -287,10 +260,10 @@
                     </div>
                 </div>
 
-                <div id="certificateItem" style=" margin-top: 60px; margin-left: 10px; ">
+                <div id="projectItem" style=" margin-top: 60px; margin-left: 10px; ">
                     <a id="projectLink" target="_blank" href="https://bitbucket.org/SilviaStefania" class="fa fa-bitbucket"></a>
                     <div>
-                        <h4 style="width: fit-content; margin-top: -5px;"><strong>HEALTH CARE APPLICATION –</strong> Web application for doctors and patients </h4>
+                        <h4 style="margin-left: 45px; margin-top: -45px; width: fit-content; "><strong>HEALTH CARE APPLICATION –</strong> Web application for doctors and patients </h4>
 
                         <p>
                             The purpose of the health care application is to offer doctors a way of managing their patients: they can assign patients to caregivers, add new patients/caregivers, add medical plans to patients and receive notifications regarding patients' status.
@@ -319,10 +292,10 @@
 
 
 
-                <div style="margin-top: 60px;" id="certificateItem">
+                <div style="margin-top: 60px;" id="projectItem">
                     <a id="projectLink" target="_blank" href="https://github.com/utcn-sd-serban/assignment-3-sssilvia9977/tree/develop" class="fa fa-github"></a>
                     <div>
-                        <h4 style="width: fit-content; margin-top: 4px;"><strong>FORUM LIKE APPLICATION</strong> - Web application hosting questions and answers</h4>
+                        <h4 style="margin-left: 45px; margin-top: -41px; width: fit-content; "><strong>FORUM LIKE APPLICATION</strong> - Web application hosting questions and answers</h4>
 
                         <p>
                             The application allows users to post questions that will open a thread of discussion. Other users can answer those questions and up vote or down vote them.
@@ -394,8 +367,8 @@
             <section id="softSkills" style="margin-top: 50px;">
                 <h2>Soft skills</h2>
 
-                <div style="display: flex; ">
-                    <div id="certificateItem" style=" margin-right: 10px; width: 50%;">
+                <div id="twoSoft">
+                    <div id="certificateItem" class="skillDesc">
                         <ul class="feature-icons">
                             <li class="fa fa-book"></li>
                         </ul>
@@ -405,7 +378,7 @@
                         </div>
                     </div>
 
-                    <div id="certificateItem" style=" margin-left: 10px; width: 50%;">
+                    <div id="certificateItem" class="skillDesc">
                         <ul class="feature-icons">
                             <li class="fa fa-cubes"></li>
                         </ul>
@@ -417,54 +390,54 @@
                 </div>
 
 
-                <div style="display: flex; ">
-                    <div id="certificateItem" style=" flex-wrap: wrap; margin-right: 10px; width: 50%;">
-                        <div id="certificateItem" style="  width: 50%;">
-                            <ul class="feature-icons">
-                                <li class="fa fa-bolt"></li>
-                            </ul>
-                            <p style="padding-top: 8px;">Attention to details</p>
-                        </div>
+                <div style="display: flex; flex-wrap: wrap;">
 
-                        <div id="certificateItem" style=" width: 50%;">
-                            <ul class="feature-icons">
-                                <li class="fa fa-bolt"></li>
-                            </ul>
-                            <p style="padding-top: 8px;">Critical thinking</p>
-                        </div>
-
-                        <div id="certificateItem" style=" width: 50%;">
-                            <ul class="feature-icons">
-                                <li class="fa fa-bolt"></li>
-                            </ul>
-                            <p style="padding-top: 8px;">Curiosity</p>
-                        </div>
-
-                        <div id="certificateItem" style=" width: 50%;">
-                            <ul class="feature-icons">
-                                <li class="fa fa-bolt"></li>
-                            </ul>
-                            <p style="padding-top: 8px;">Enthusiasm</p>
-                        </div>
+                    <div id="certificateItem" style="  width: 50%;">
+                        <ul class="feature-icons">
+                            <li class="fa fa-bolt"></li>
+                        </ul>
+                        <p style="padding-top: 8px;">Attention to details</p>
                     </div>
 
-                    <div id="certificateItem" style=" margin-left: 10px; width: 50%;">
-                        <div id="certificateItem" style=" width: 50%; ">
-                            <ul class="feature-icons">
-                                <li class="fa fa-bolt"></li>
-                            </ul>
-                            <p style="padding-top: 8px;">Organizational skills</p>
-                        </div>
-
-                        <div id="certificateItem" style="width: 50%; ">
-                            <ul class="feature-icons">
-                                <li class="fa fa-bolt"></li>
-                            </ul>
-                            <p style="padding-top: 8px;">Optimism</p>
-                        </div>
-
-
+                    <div id="certificateItem" style=" width: 50%;">
+                        <ul class="feature-icons">
+                            <li class="fa fa-bolt"></li>
+                        </ul>
+                        <p style="padding-top: 8px;">Critical thinking</p>
                     </div>
+
+                    <div id="certificateItem" style=" width: 50%;">
+                        <ul class="feature-icons">
+                            <li class="fa fa-bolt"></li>
+                        </ul>
+                        <p style="padding-top: 8px;">Curiosity</p>
+                    </div>
+
+                    <div id="certificateItem" style=" width: 50%;">
+                        <ul class="feature-icons">
+                            <li class="fa fa-bolt"></li>
+                        </ul>
+                        <p style="padding-top: 8px;">Enthusiasm</p>
+                    </div>
+
+
+
+                    <div id="certificateItem" style=" width: 50%; ">
+                        <ul class="feature-icons">
+                            <li class="fa fa-bolt"></li>
+                        </ul>
+                        <p style="padding-top: 8px;">Organizational skills</p>
+                    </div>
+
+                    <div id="certificateItem" style="width: 50%; ">
+                        <ul class="feature-icons">
+                            <li class="fa fa-bolt"></li>
+                        </ul>
+                        <p style="padding-top: 8px;">Optimism</p>
+                    </div>
+
+
+
                 </div>
 
             </section>
